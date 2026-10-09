@@ -1,0 +1,15 @@
+# Local Python environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated and temporary files
+outputs/
+.tmp/
+.test_work/
+.mplconfig/
+*.tmp
+*.temp
