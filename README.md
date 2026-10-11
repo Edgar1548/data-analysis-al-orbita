@@ -1,6 +1,8 @@
 # Análisis de datos de un equipo industrial
 
-[Aplicación publicada en Cloud Run](https://analysis-al-orbita-955223699476.us-central1.run.app) | [Repositorio público](https://github.com/Edgar1548/data-analysis-al-orbita)
+[Aplicación publicada](https://analysis-al-orbita-955223699476.us-central1.run.app) | [Repositorio público](https://github.com/Edgar1548/data-analysis-al-orbita)
+
+La primera carga de la aplicación puede tardar algunos segundos.
 
 Aplicación pequeña y explicable en Python para auditar mediciones operativas, resumir su comportamiento, identificar vibraciones inusuales para RPM semejantes y presentar los resultados mediante archivos, gráficas estáticas y una interfaz interactiva opcional.
 
@@ -93,7 +95,7 @@ Ejecutar el contenedor localmente:
 docker run --rm -p 8080:8080 -e PORT=8080 analisis-industrial
 ```
 
-La aplicación estará disponible en `http://localhost:8080`. El contenedor escucha la variable `PORT` utilizada por Cloud Run y ejecuta el proceso con un usuario sin privilegios.
+La aplicación estará disponible en `http://localhost:8080`. 
 
 ## Ejecutar las pruebas
 
