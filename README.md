@@ -2,7 +2,7 @@
 
 [Aplicación publicada](https://analysis-al-orbita-955223699476.us-central1.run.app) | [Repositorio público](https://github.com/Edgar1548/data-analysis-al-orbita)
 
-La primera carga de la aplicación puede tardar algunos segundos.
+La primera carga de la aplicación puede tardar algunos segundos. La aplicacion fue desplegada usando Google Cloud Run.
 
 Aplicación pequeña y explicable en Python para auditar mediciones operativas, resumir su comportamiento, identificar vibraciones inusuales para RPM semejantes y presentar los resultados mediante archivos, gráficas estáticas y una interfaz interactiva opcional.
 
